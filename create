@@ -1,0 +1,19 @@
+CREATE TABLE weekly_invoice (
+	id INT PRIMARY KEY,
+	cutomer_id VARCHAR(120),
+	week_start DATE,
+	week_end DATE,
+	invoice_amount DECIMAL (10,2)
+	
+);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (1, 1, '2023-01-12', '2023-01-12', 23.56);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (2, 1, '2023-01-19', '2023-01-20', 997.40);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (3, 1, '2023-02-16', '2023-02-23', 84.54);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (4, 1, '2023-02-23', '2023-02-23', 354.68);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (5, 1, '2023-03-10', '2023-03-15', 178.60);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (6, 2, '2023-03-24', '2023-03-25', 1457.17);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (7, 2, '2023-03-30', '2023-03-30', 1105.94);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (8, 2, '2023-03-31', '2023-04-01', 9418.95);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (9, 3, '2023-04-02', '2023-04-12', 1537.98);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (10, 3, '2023-04-06', '2023-04-10', 50449.36);
+INSERT INTO weekly_invoice (id, cutomer_id, date_of_purchase, date_of_invoice, invoice_amount) VALUES (11, 4, '2023-04-13', '2023-04-14', 425.78);
